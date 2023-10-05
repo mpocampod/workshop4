@@ -1,6 +1,8 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        Capitan capVelero = new Capitan("Juan", "Perez", "12345");
+        Capitan capVelero = new Capitan("Juan", "Perez", "DRZ628IAU");
         Velero vel = new Velero(capVelero, 1000.0, 20000.0, 2022, 15.0, 5);
 
         Capitan capYate = new Capitan("Maria", "Lopez", "67890");
